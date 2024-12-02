@@ -1,1 +1,31 @@
+body {
+    font-family: sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    color: #212529;
+}
+.header {
+    background: #3366cc;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}
+.content {
+    padding: 2rem;
+}
+.footer {
+    text-align: center;
+    padding: 1rem;
+    background: #e9ecef;
+    margin-top: 1rem;
+}
+a {
+    color: #0056b3;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
 
