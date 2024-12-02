@@ -1,31 +1,106 @@
+/* General Body Styling */
 body {
-    font-family: sans-serif;
+    font-family: "Linux Libertine", "Georgia", "Times New Roman", serif;
+    font-size: 14px;
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background-color: #f8f9fa;
-    color: #212529;
+    background-color: #f8f9fa; /* Slightly off-white */
+    color: #202122; /* Dark gray text */
 }
-.header {
-    background: #3366cc;
-    color: white;
-    text-align: center;
-    padding: 1rem 0;
-}
-.content {
-    padding: 2rem;
-}
-.footer {
-    text-align: center;
+
+/* Page Layout */
+.container {
+    width: 960px;
+    margin: 0 auto;
+    background-color: white;
     padding: 1rem;
-    background: #e9ecef;
-    margin-top: 1rem;
+    border: 1px solid #a2a9b1;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
 }
-a {
-    color: #0056b3;
+
+/* Header */
+.header {
+    text-align: left;
+    padding: 1rem 0;
+    border-bottom: 1px solid #a2a9b1;
+    margin-bottom: 1rem;
+}
+
+.header h1 {
+    font-size: 1.8rem;
+    margin: 0;
+    font-weight: bold;
+    color: #3366cc;
+}
+
+.header p {
+    font-size: 0.9rem;
+    color: #54595d;
+}
+
+/* Navigation Bar */
+.navbar {
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #a2a9b1;
+    padding: 0.5rem 0;
+    font-size: 0.9rem;
+}
+
+.navbar a {
+    color: #3366cc;
     text-decoration: none;
+    margin-right: 1rem;
 }
-a:hover {
+
+.navbar a:hover {
     text-decoration: underline;
 }
 
+/* Main Content */
+.main-content {
+    margin-top: 1rem;
+}
+
+.main-content h2 {
+    font-size: 1.5rem;
+    color: #202122;
+    margin-bottom: 0.5rem;
+}
+
+.main-content p {
+    margin-bottom: 1rem;
+    text-align: justify;
+}
+
+/* Tables */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1rem 0;
+}
+
+table th, table td {
+    border: 1px solid #a2a9b1;
+    padding: 0.5rem;
+    text-align: left;
+}
+
+table th {
+    background-color: #f8f9fa;
+    font-weight: bold;
+}
+
+table tr:nth-child(even) {
+    background-color: #f5f5f5;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    font-size: 0.8rem;
+    color: #54595d;
+    padding: 1rem 0;
+    margin-top: 2rem;
+    border-top: 1px solid #a2a9b1;
+}
